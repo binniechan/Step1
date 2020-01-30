@@ -4,7 +4,7 @@ rm(list=ls())
 test1 <- read_csv("test1.csv")
 ## 데이터전처리
 
-# 1시즌 밖에 없는 선수들 제외시키기
+# 1시즌 밖에 없는 선수들 제외시키기.
 frequency<-c()
 sum(test1$playerid==test1$playerid[2])
 
